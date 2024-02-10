@@ -8,6 +8,7 @@
 }
 
 body{
+    
     background-color: #c4ecdc;
     background: linear-gradient(to right, #e2e2e2, #c4ecdc);
     display: flex;
@@ -15,6 +16,18 @@ body{
     justify-content: center;
     flex-direction: column;
     height: 100vh;
+}
+.background-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-image: url('download.jpg'); /* path to your background image */
+    background-size: cover;
+    background-position: center;
+    opacity: 1; /* adjust opacity as needed */
 }
 
 .container{
