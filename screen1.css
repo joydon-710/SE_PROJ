@@ -8,7 +8,6 @@
 }
 
 body{
-    
     background-color: #c4ecdc;
     background: linear-gradient(to right, #e2e2e2, #c4ecdc);
     display: flex;
@@ -24,7 +23,7 @@ body{
     width: 100%;
     height: 100%;
     z-index: -1;
-    background-image: url('download.jpg'); /* path to your background image */
+    background-image: url('imgs/img3.jpg'); /* path to your background image */
     background-size: cover;
     background-position: center;
     opacity: 1; /* adjust opacity as needed */
