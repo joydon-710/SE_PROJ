@@ -140,7 +140,7 @@ body.active { overflow: hidden; }
   #REUSED STYLE
 \*-----------------------------------*/
 
-.container { padding-inline: 15px; }
+.Container_1 { padding-inline: 15px; }
 
 .social-wrapper {
   display: flex;
@@ -227,14 +227,14 @@ body.active { overflow: hidden; }
   0% { transform: translateY(-100%); }
   100% { transform: translateY(0); }
 }
-.header .container {
+.header .Container_1 {
   display: flex;
   justify-content:space-between;
   align-items: center;
   gap: 20px;
 }
 
-.logo{
+.Logo_CCI{
   font-size: 3.3rem;
   font-weight: var(--fw-700);
   transition: var(--transition-1);
@@ -807,7 +807,7 @@ a.card-meta-text:is(:hover, :focus) { color: var(--tan-crayola); }
    * REUSED STYLE
    */
 
-  .container {
+  .Container_1 {
     max-width: 575px;
     width: 100%;
     margin-inline: auto;
@@ -831,7 +831,7 @@ a.card-meta-text:is(:hover, :focus) { color: var(--tan-crayola); }
    * HEADER
    */
 
-  .header .container { gap: 25px; }
+  .header .Container_1 { gap: 25px; }
 
   .header .input-wrapper {
     display: block;
@@ -897,7 +897,7 @@ a.card-meta-text:is(:hover, :focus) { color: var(--tan-crayola); }
    * REUSED STYLE
    */
 
-  .container { max-width: 768px; }
+  .Container_1 { max-width: 768px; }
 
 
 
@@ -969,7 +969,7 @@ a.card-meta-text:is(:hover, :focus) { color: var(--tan-crayola); }
    * REUSED STYLE
    */
 
-  .container { max-width: 992px; }
+  .Container_1 { max-width: 992px; }
 
   .grid-list > li:last-child { all: unset; }
 
@@ -1054,7 +1054,7 @@ a.card-meta-text:is(:hover, :focus) { color: var(--tan-crayola); }
    * REUSED STYLE
    */
 
-  .container { max-width: 1200px; }
+  .Container_1 { max-width: 1200px; }
 
 
 
